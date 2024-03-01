@@ -1,0 +1,105 @@
+.logo{
+    width: 45px;
+    border-radius: 30%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: rgb(255, 255, 255);
+  }
+  body{
+   display: flex;
+   width: 100vw !important;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 100vh;
+   text-align: justify;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+    text-decoration: none;
+  }
+  .img1{
+    width: 100%;
+  }
+  .footer{
+height: 70px;
+}
+.icone{
+    display: flex;
+    justify-content: center !important;
+
+
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  @media only screen and (max-width: 600px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+p{
+    text-align:justify;
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+h1{
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.img3{
+    width: 70%;
+   display: block;
+   margin: auto;
+}
+.btn{
+    background-color: rgb(79, 180, 248) !important;
+    border-radius: 8%;
+    padding: 5px 10px;
+    font-weight: 600 !important;
+
+}
+footer{
+    bottom: 0 !important;
+    width: 100vw !important;
+    margin-top: 3%;
+
+
+}
+.divbtn{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    margin: 3% 0;
+}
+.col-lg-4{
+    padding: 1%;
+}
+main{
+  margin: 10vh auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap')
